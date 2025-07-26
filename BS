@@ -1245,6 +1245,13 @@ tool.Parent = player.Backpack
   end
 })
 
+Tab:AddButton({
+  Name = "赛车漂移",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AstraOutlight/my-scripts/refs/heads/main/fe%20car%20v3"))()
+  end
+})
+
 local Tab = Window:MakeTab({
 	Name = "黑洞脚本合集",
 	Icon = "rbxassetid://7734068321",
