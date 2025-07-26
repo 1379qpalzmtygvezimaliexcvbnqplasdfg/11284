@@ -1966,7 +1966,14 @@ loadstring(game:HttpGet("https://pastebin.com/raw/vqn0KPcB"))()
 Tab:AddButton({
   Name = "黑洞脚本(第13种)(环绕V3)",
   Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/b6uMdbgK"))()
+  end
+})
 
+Tab:AddButton({
+  Name = "黑洞脚本(第14种)(环绕V4",
+  Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/hnevJNNc"))()
   end
 })
 
