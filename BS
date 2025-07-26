@@ -694,7 +694,7 @@ loadstring(game:HttpGet("https://pastebin.com/raw/ws8cJmTD"))()
 })
 
 Tab:AddButton({
-  Name = "上头定在原地",
+  Name = "让头定在原地",
   Callback = function()
     local lp = game:GetService "Players".LocalPlayer
     if lp.Character:FindFirstChild "Head" then
@@ -1298,16 +1298,16 @@ loadstring(game:HttpGet("https://pastebin.com/raw/U29jR1Cf"))()
 })
 
 Tab:AddButton({
-  Name = "黑洞脚本(第9种)(环绕V3)",
+  Name = "黑洞脚本(第9种)(环绕V5)",
   Callback = function()
 
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/BOOSBS/199/refs/heads/main/V3"))()
+   loadstring(game:HttpGet("https://pastebin.com/raw/nV3g9qJz"))()
   
 end
 })
 
 Tab:AddButton({
-  Name = "黑洞脚本(第10种)(环绕V1)",
+  Name = "黑洞脚本(第10种)(环绕)",
   Callback = function()
 
 local Players = game:GetService("Players")
@@ -1457,6 +1457,13 @@ end)
 toggleBlackHole()
   
 end
+})
+
+Tab:AddButton({
+  Name = "黑洞脚本(第11种)(环绕V6)",
+  Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/VJYqU55x"))()
+  end
 })
 
 local Tab = Window:MakeTab({
