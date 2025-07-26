@@ -1280,13 +1280,6 @@ loadstring(game:HttpGet("https://pastebin.com/raw/2BHVRL2x"))()
   end
 })
 
-Tab:AddButton({
-  Name = "变成狗撞飞别人",
-  Callback = function()
-loadstring(game:HttpGet("https://pastebin.com/raw/siUhUqmp"))()
-  end
-})
-
 local Tab = Window:MakeTab({
 	Name = "黑洞脚本合集",
 	Icon = "rbxassetid://7734068321",
@@ -1946,6 +1939,13 @@ Tab:AddButton({
   Name = "黑洞脚本(第11种)(环绕V6)",
   Callback = function()
 loadstring(game:HttpGet("https://pastebin.com/raw/VJYqU55x"))()
+  end
+})
+
+Tab:AddButton({
+  Name = "黑洞脚本(第12种)",
+  Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/vqn0KPcB"))()
   end
 })
 
