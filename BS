@@ -1417,7 +1417,7 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-  Name = "特殊重力型黑洞",
+  Name = "重力型黑洞(只有自然灾害能玩)",
   Callback = function()
 loadstring(game:HttpGet("https://pastebin.com/raw/Fv8frZzD"))()
   end
