@@ -1410,6 +1410,13 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+  Name = "特殊重力型黑洞",
+  Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/Fv8frZzD"))()
+  end
+})
+
+Tab:AddButton({
   Name = "黑洞脚本(第1种)",
   Callback = function()
     print('Hello World!');local UserInputService = game:GetService("UserInputService")
