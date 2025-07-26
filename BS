@@ -206,6 +206,13 @@ Heartbeat:Connect(HeartbeatUpdate)
   end
 })
 
+Tab:AddButton({
+  Name = "解除语音脏话限制",
+  Callback = function()
+voiceChatService = game:GetService("VoiceChatService")
+voiceChatService:joinVoice()
+  end
+})
 
 Tab:AddButton({
   Name = "重开",
