@@ -1963,6 +1963,13 @@ loadstring(game:HttpGet("https://pastebin.com/raw/vqn0KPcB"))()
   end
 })
 
+Tab:AddButton({
+  Name = "黑洞脚本(第13种)(环绕V3)",
+  Callback = function()
+
+  end
+})
+
 local Tab = Window:MakeTab({
 	Name = "指令挂",
 	Icon = "rbxassetid://7734068321",
