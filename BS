@@ -805,19 +805,6 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/
 })
 
 local Tab = Window:MakeTab({
-	Name = "通用5",
-	Icon = "rbxassetid://7734068321",
-	PremiumOnly = false
-})
-
-Tab:AddButton({
-  Name = "超人式飞行",
-  Callback = function()
-loadstring(game:HttpGet("https://pastebin.com/raw/yH01FGET"))()
-  end
-})
-
-local Tab = Window:MakeTab({
 	Name = "黑洞脚本合集(全部可用)",
 	Icon = "rbxassetid://7734068321",
 	PremiumOnly = false
