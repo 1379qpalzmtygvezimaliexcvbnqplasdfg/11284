@@ -407,9 +407,9 @@ loadstring(game:HttpGet("https://pastebin.com/raw/ckiGL34v"))()
 })
 
 Tab:AddButton({
-  Name = "在聊天框中进行图画",
+  Name = "在聊天框中进行图画(V2)",
   Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ocfi/Draw-To-Chat-Obfuscated/refs/heads/main/Draw%20to%20Chat"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AKadminlol/Chatdraw/refs/heads/main/Chattdraw"))()
   end
 })
 
@@ -501,6 +501,8 @@ Tab:AddButton({
 loadstring(game:HttpGet("https://pastebin.com/raw/ahK5jRxM"))()
   end
 })
+
+
 
 local Tab = Window:MakeTab({
 	Name = "通用3",
