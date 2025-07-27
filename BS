@@ -1287,6 +1287,13 @@ loadstring(game:HttpGet("https://pastebin.com/raw/2BHVRL2x"))()
   end
 })
 
+Tab:AddButton({
+  Name = "搞鸡脚本",
+  Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/Y3gn1tmH"))()
+  end
+})
+
 local Tab = Window:MakeTab({
 	Name = "黑洞脚本合集",
 	Icon = "rbxassetid://7734068321",
