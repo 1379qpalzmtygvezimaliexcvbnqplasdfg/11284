@@ -866,6 +866,13 @@ loadstring(game:HttpGet("https://pastebin.com/raw/Y3gn1tmH"))()
   end
 })
 
+Tab:AddButton({
+  Name = "防甩飞",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ChinaQY/Scripts/Main/AntiFling.lua"))()
+  end
+})
+
 local Tab = Window:MakeTab({
 	Name = "黑洞脚本合集",
 	Icon = "rbxassetid://7734068321",
