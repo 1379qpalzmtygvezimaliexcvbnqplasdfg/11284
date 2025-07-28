@@ -19,7 +19,7 @@ end)
 print("反挂机开启")
 
 -- 标签页1: 我想对你们说的话
-local Tab1 = Window:Tab("公告", '5436396988')
+local Tab1 = Window:Tab("公告", '5436396975')
 local Section1 = Tab1:section("BS脚本团队", true)
 Section1:Label("❤️BS脚本❤️")
 Section1:Label("本脚本只更新通用")
@@ -130,7 +130,7 @@ Section4:Button("重开", function()
 end)
 
 -- 标签页3: 通用1
-local Tab3 = Window:Tab("通用1", '7734068321')
+local Tab3 = Window:Tab("通用1", '5436396975')
 local Section5 = Tab3:section("基础功能", true)
 Section5:Toggle("夜视", "NightVision", false, function(Value)
     if Value then
@@ -270,7 +270,7 @@ Section5:Button("灵魂出窍", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/ahK5jRxM"))()
 end)
 -- 标签页4: 通用2
-local Tab4 = Window:Tab("通用2", '7734068321')
+local Tab4 = Window:Tab("通用2", '5436396975')
 local Section6 = Tab4:section("传送工具", true)
 Section6:Button("点击传送工具", function()
     mouse = game.Players.LocalPlayer:GetMouse()
@@ -328,7 +328,7 @@ Section6:Button("踏空行走", function()
 end)
 
 -- 标签页5: 通用3
-local Tab5 = Window:Tab("通用3", '7734068321')
+local Tab5 = Window:Tab("通用3", '5436396975')
 local Section7 = Tab5:section("范围设置", true)
 Section7:Button("0范围", function()
     _G.HeadSize = 0
@@ -488,7 +488,7 @@ Section7:Button("让头定在原地", function()
 end)
 
 -- 标签页6: 通用4
-local Tab6 = Window:Tab("通用4", '7734068321')
+local Tab6 = Window:Tab("通用4", '5436396975')
 local Section8 = Tab6:section("特殊功能", true)
 Section8:Button("让走路和跳跃变卡(对别人没影响)", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Fe%20Fake%20Lag%20Obfuscator'))()
@@ -518,7 +518,7 @@ Section8:Button("防甩飞", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ChinaQY/Scripts/Main/AntiFling.lua"))()
 end)
 
-local Tab7 = Window:Tab("黑洞", '7734068321')
+local Tab7 = Window:Tab("黑洞", '5436396975')
 local blackhole = Tab7:section("黑洞脚本", true)
 blackhole:Button("辅助脚本", function()
     if "you wanna use rochips universal" then
@@ -1116,7 +1116,7 @@ blackhole:Button("黑洞脚本(第14种)(环绕V4)", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/hnevJNNc"))()
   end)
 -- 标签页8: 指令挂
-local Tab8 = Window:Tab("指令挂", '7734068321')
+local Tab8 = Window:Tab("指令挂", '5436396975')
 local Section10 = Tab8:section("指令功能", true)
 Section10:Button("指令脚本", function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
@@ -1149,7 +1149,7 @@ Section10:Label("noclip穿墙")
 Section10:Label("有的可能不能用")
 
 -- 标签页9: 念力
-local Tab9 = Window:Tab("念力", '7734068321')
+local Tab9 = Window:Tab("念力", '5436396975')
 local Section11 = Tab9:section("念力控制", true)
 Section11:Button("获取念力工具", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/dbcy7SHF"))()
@@ -1169,7 +1169,7 @@ Section11:Label("J-飞起来")
 Section11:Label("K-回到手中")
 
 -- 标签页10: 变身(只能自己看)
-local Tab10 = Window:Tab("变身(只能自己看)", '7734068321')
+local Tab10 = Window:Tab("变身(只能自己看)", '5436396975')
 local Section12 = Tab10:section("变身功能", true)
 Section12:Label("部分服务器可以用")
 Section12:Button("大BOSS", function()
@@ -1189,7 +1189,7 @@ Section12:Button("天使", function()
 end)
 
 -- 标签页11: 黑洞融合表
-local Tab11 = Window:Tab("黑洞融合表", '7734068321')
+local Tab11 = Window:Tab("黑洞融合表", '5436396975')
 local Section13 = Tab11:section("融合说明", true)
 Section13:Label("黑洞中心独家创作")
 Section13:Label("普通黑洞2+所有黑洞=超级黑洞")
@@ -1198,7 +1198,7 @@ Section13:Label("全部黑洞通用融合表")
 Section13:Label("👆以上为亲身测试得出的结论☝")
 
 -- 标签页12: 滤镜与光影
-local Tab12 = Window:Tab("滤镜与光影", '7734068321')
+local Tab12 = Window:Tab("滤镜与光影", '5436396975')
 local Section14 = Tab12:section("画质设置", true)
 Section14:Button("自定义画质包", function()
     loadstring(game:HttpGet(('https://pastefy.app/xXkUxA0P/raw'),true))()
@@ -1249,7 +1249,7 @@ Section14:Button("光影(3)", function()
 end)
 
 -- 标签页13: 音乐只能自己听
-local Tab13 = Window:Tab("音乐只能自己听", '7734068321')
+local Tab13 = Window:Tab("音乐只能自己听", '5436396975')
 local Section15 = Tab13:section("音乐播放", true)
 Section15:Button("自定义音乐", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/boyscp/beta/main/music.lua"))()
@@ -1325,7 +1325,7 @@ Section15:Button("防空警报", function()
 end)
 
 -- 标签页14: 其他脚本
-local Tab14 = Window:Tab("其他脚本", '7734068321')
+local Tab14 = Window:Tab("其他脚本", '5436396975')
 local Section16 = Tab14:section("脚本合集", true)
 Section16:Button("林脚本破解版", function()
     AL = "Advanced Logic团队破解"
@@ -1370,7 +1370,7 @@ Section16:Button("泠脚本", function()
 end)
 
 -- 标签页15: doors
-local Tab15 = Window:Tab("doors", '7734068321')
+local Tab15 = Window:Tab("doors", '5436396975')
 local Section17 = Tab15:section("doors功能", true)
 Section17:Button("手电筒（没电会有bug）", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/K0t1n/Public/main/Normal%20Flashlight"))()
@@ -1402,7 +1402,7 @@ Section17:Button("zs", function()
 end)
 
 -- 标签页16: ohio
-local Tab16 = Window:Tab("ohio", '7734068321')
+local Tab16 = Window:Tab("ohio", '5436396975')
 local Section18 = Tab16:section("ohio功能", true)
 Section18:Button("BS俄亥俄州(半成品)", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/Asddffgujhh/-/refs/heads/main/ohio'))()
@@ -1421,7 +1421,7 @@ Section18:Button("一拳超人", function()
 end)
 
 -- 标签页17: 餐厅大亨
-local Tab17 = Window:Tab("餐厅大亨", '7734068321')
+local Tab17 = Window:Tab("餐厅大亨", '5436396975')
 local Section19 = Tab17:section("餐厅大亨功能", true)
 Section19:Button("餐厅大亨1", function()
     loadstring(game:HttpGet("https://shz.al/~zkzkzisKAKAKK"))()
@@ -1434,7 +1434,7 @@ Section19:Button("餐厅大亨3", function()
 end)
 
 -- 标签页18: 最强战场
-local Tab18 = Window:Tab("最强战场", '7734068321')
+local Tab18 = Window:Tab("最强战场", '5436396975')
 local Section20 = Tab18:section("最强战场功能", true)
 Section20:Button("刀锋", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/zyrask/Nexus-Base/main/atomic-blademaster%20to%20sukuna"))()
@@ -1474,7 +1474,7 @@ Section20:Button("饿狼改YUJI", function()
 end)
 
 -- 标签页19: 起床战争
-local Tab19 = Window:Tab("起床战争", '7734068321')
+local Tab19 = Window:Tab("起床战争", '5436396975')
 local Section21 = Tab19:section("起床战争功能", true)
 Section21:Button("vepe v3", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Alan0947383/Demonic-HUB-V2/main/S-C-R-I-P-T.lua",true))()
@@ -1484,7 +1484,7 @@ Section21:Button("vape v4.1", function()
 end)
 
 -- 标签页20: 忍者传奇
-local Tab20 = Window:Tab("忍者传奇", '7734068321')
+local Tab20 = Window:Tab("忍者传奇", '5436396975')
 local Section22 = Tab20:section("忍者传奇功能", true)
 Section22:Button("脚本1", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/zerpqe/script/main/NinjaLegends.lua"))()
@@ -1742,7 +1742,7 @@ Section25:Button("死亡宠物", function()
 end)
 
 -- 标签页21: 河北唐县
-local Tab21 = Window:Tab("河北唐县", '7734068321')
+local Tab21 = Window:Tab("河北唐县", '5436396975')
 local Section26 = Tab21:section("河北唐县功能", true)
 Section26:Button("河北唐县1", function()
     loadstring(game:HttpGet("https://pastefy.app/s20nni0h/raw"))()
@@ -1752,7 +1752,7 @@ Section26:Button("河北唐县2", function()
 end)
 
 -- 标签页22: 越狱
-local Tab22 = Window:Tab("越狱", '7734068321')
+local Tab22 = Window:Tab("越狱", '5436396975')
 local Section27 = Tab22:section("越狱功能", true)
 Section27:Button("抢劫", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxsta72/ProjectAuto/main/free"))()
@@ -1765,14 +1765,14 @@ Section27:Button("青", function()
 end)
 
 -- 标签页23: 兵工厂
-local Tab23 = Window:Tab("兵工厂", '7734068321')
+local Tab23 = Window:Tab("兵工厂", '5436396975')
 local Section28 = Tab23:section("兵工厂功能", true)
 Section28:Button("子弹追踪", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubArsenal"))()
 end)
 
 -- 标签页24: 监狱人生
-local Tab24 = Window:Tab("监狱人生", '7734068321')
+local Tab24 = Window:Tab("监狱人生", '5436396975')
 local Section29 = Tab24:section("监狱人生功能", true)
 Section29:Button("手里剑秒杀", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/PSXhuge/1/114514/jian"))()
@@ -1806,7 +1806,7 @@ Section29:Button("超强指令", function()
 end)
 
 -- 标签页25: 力量传奇
-local Tab25 = Window:Tab("力量传奇", '7734068321')
+local Tab25 = Window:Tab("力量传奇", '5436396975')
 local Section30 = Tab25:section("力量传奇功能", true)
 Section30:Button("传送到出生点", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(7, 3, 108)
@@ -1837,7 +1837,7 @@ Section30:Button("范围增加", function()
 end)
 
 -- 标签页26: 速度传奇
-local Tab26 = Window:Tab("速度传奇", '7734068321')
+local Tab26 = Window:Tab("速度传奇", '5436396975')
 local Section31 = Tab26:section("速度传奇功能", true)
 Section31:Button("开启卡宠", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/uR6azdQQ"))()
@@ -1847,14 +1847,14 @@ Section31:Button("自动", function()
 end)
 
 -- 标签页27: 动感星期五
-local Tab27 = Window:Tab("动感星期五", '7734068321')
+local Tab27 = Window:Tab("动感星期五", '5436396975')
 local Section32 = Tab27:section("动感星期五功能", true)
 Section32:Button("星期五", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.lua",true))()
 end)
 
 -- 标签页28: 战争大亨
-local Tab28 = Window:Tab("战争大亨", '7734068321')
+local Tab28 = Window:Tab("战争大亨", '5436396975')
 local Section33 = Tab28:section("战争大亨功能", true)
 Section33:Button("一枪秒人", function()
     loadstring(game:HttpGet('https://pastebin.com/raw/6b4XEjQF'))()
@@ -1867,14 +1867,14 @@ Section33:Button("乌托邦战争大亨", function()
 end)
 
 -- 标签页29: 冰上钓鱼模拟器
-local Tab29 = Window:Tab("冰上钓鱼模拟器", '7734068321')
+local Tab29 = Window:Tab("冰上钓鱼模拟器", '5436396975')
 local Section34 = Tab29:section("冰上钓鱼功能", true)
 Section34:Button("脚本1", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/dingding123hhh/anlushanjinchangantangwanle/refs/heads/main/bingshangdiaofish.lua"))()
 end)
 
 -- 标签页30: bf
-local Tab30 = Window:Tab("bf", '7734068321')
+local Tab30 = Window:Tab("bf", '5436396975')
 local Section35 = Tab30:section("bf功能", true)
 Section35:Button("脚本1", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/TirSANX/CrimsonHUB/main/C_Loader'))()
@@ -1893,7 +1893,7 @@ Section35:Button("脚本5", function()
 end)
 
 -- 标签页31: 彩虹朋友
-local Tab31 = Window:Tab("彩虹朋友", '7734068321')
+local Tab31 = Window:Tab("彩虹朋友", '5436396975')
 local Section36 = Tab31:section("彩虹朋友功能", true)
 Section36:Button("彩虹朋友", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/Sempiller/RainbowTool/main/Turkish.lua'))();
@@ -1903,7 +1903,7 @@ Section36:Button("彩虹朋友2", function()
 end)
 
 -- 标签页32: 内脏与黑火药
-local Tab32 = Window:Tab("内脏与黑火药", '7734068321')
+local Tab32 = Window:Tab("内脏与黑火药", '5436396975')
 local Section37 = Tab32:section("内脏与黑火药功能", true)
 Section37:Button("内脏与黑火药1", function()
     loadstring(game:HttpGet("https://shz.al/~KSKKS"))()
@@ -1913,14 +1913,14 @@ Section37:Button("内脏与黑火药2", function()
 end)
 
 -- 标签页33: 幸运方块
-local Tab33 = Window:Tab("幸运方块", '7734068321')
+local Tab33 = Window:Tab("幸运方块", '5436396975')
 local Section38 = Tab33:section("幸运方块功能", true)
 Section38:Button("脚本1", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/PlanetHubX/Lucky-Blocks/main/source", true))()
 end)
 
 -- 标签页34: 造船寻宝
-local Tab34 = Window:Tab("造船寻宝", '7734068321')
+local Tab34 = Window:Tab("造船寻宝", '5436396975')
 local Section39 = Tab34:section("造船寻宝功能", true)
 Section39:Button("脚本1", function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/urmomjklol69/GoldFarmBabft/main/GoldFarm.lua'),true))()
@@ -1947,14 +1947,14 @@ Section39:Button("刷钱", function()
 end)
 
 -- 标签页35: 进击的僵尸
-local Tab35 = Window:Tab("进击的僵尸", '7734068321')
+local Tab35 = Window:Tab("进击的僵尸", '5436396975')
 local Section40 = Tab35:section("进击的僵尸功能", true)
 Section40:Button("进击的僵尸", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Zombie%20Attack", true))()
 end)
 
 -- 标签页36: 战斗勇士
-local Tab36 = Window:Tab("战斗勇士", '7734068321')
+local Tab36 = Window:Tab("战斗勇士", '5436396975')
 local Section41 = Tab36:section("战斗勇士功能", true)
 Section41:Button("脚本1", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/frkfx/Combat-Warriors/main/Script"))()
@@ -1964,7 +1964,7 @@ Section41:Button("脚本2", function()
 end)
 
 -- 标签页37: 鲨口求生2
-local Tab37 = Window:Tab("鲨口求生2", '7734068321')
+local Tab37 = Window:Tab("鲨口求生2", '5436396975')
 local Section42 = Tab37:section("鲨口求生2功能", true)
 Section42:Button("船只提取器", "FreeBoat", {"不知道怎么汉化", "不知道怎么汉化", "摩托艇", "摩托艇", "独角兽挺", "摩托艇", "红马林鱼", "单栀帆船", "拖船", "小船摩托艇", "摩托艇甜甜圈", "马林鱼", "管船", "渔船", "维京船", "SmallWoodenSailboat", "RedCanopyMotorboat", "Catamaran", "CombatBoat", "TourBoat", "Duckmarine", "PartyBoat", "MilitarySubmarine", "GingerbreadSteamBoat", "Sleigh2022", "Snowmobile", "CruiseShip"}, function(CS)
   game:GetService("ReplicatedStorage").EventsFolder.BoatSelection.UpdateHostBoat:FireServer(CS)
