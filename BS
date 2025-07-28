@@ -19,7 +19,7 @@ end)
 print("反挂机开启")
 
 -- 标签页1: 我想对你们说的话
-local Tab1 = Window:Tab("公告", '123622277025702')
+local Tab1 = Window:Tab("公告", '7734068321')
 local Section1 = Tab1:section("BS脚本团队", true)
 Section1:Label("❤️BS脚本❤️")
 Section1:Label("本脚本只更新通用")
