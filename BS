@@ -521,6 +521,17 @@ end)
 Section8:Button("战士", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/n77awVm4"))()
 end)
+Section8:Button("快速互动", function()
+    for i,v in pairs(game:GetService("Workspace"):GetDescendants()) do
+    if v:IsA("ProximityPrompt") then
+        v["HoldDuration"] = 0
+    end
+end
+
+game:GetService("ProximityPromptService").PromptButtonHoldBegan:Connect(function(v)
+    v["HoldDuration"] = 0
+end)
+end)
 local Tab7 = Window:Tab("黑洞", '5436396975')
 local blackhole = Tab7:section("黑洞脚本", true)
 blackhole:Button("辅助脚本", function()
