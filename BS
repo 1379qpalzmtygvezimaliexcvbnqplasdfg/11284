@@ -6,7 +6,7 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
 })
 
 -- 创建新UI库
-local Library = loadstring(game:HttpGet("https://pastebin.com/raw/Ai6rPYjx"))()
+local Library = loadstring(game:HttpGet("ttps://pastebin.com/raw/z9SZKYvt"))()
 local Window = Library:new("黑洞中心(BS)")
 
 -- 初始化反挂机
