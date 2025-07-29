@@ -1867,4 +1867,4 @@ local function SendChatMessage(message)
     end
 end
 
-SendChatMessage("I speak for the Black Hole Center❗️")
+SendChatMessage("🤔")
