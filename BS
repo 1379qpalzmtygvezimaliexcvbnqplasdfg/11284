@@ -526,8 +526,12 @@ Section8:Button("快速互动", function()
     if v:IsA("ProximityPrompt") then
         v["HoldDuration"] = 0
     end
-end)
+end
 
+game:GetService("ProximityPromptService").PromptButtonHoldBegan:Connect(function(v)
+    v["HoldDuration"] = 0
+end)
+end)
 local Tab7 = Window:Tab("黑洞", '5436396975')
 local blackhole = Tab7:section("黑洞脚本", true)
 blackhole:Button("黑洞控制道具", function()
@@ -1635,7 +1639,7 @@ function buyswords()
                 local oh1 = "buyAllSwords"
                 local oh2 = {"Ground","Astral Island","Space Island","Tundra Island","Eternal Island","Sandstorm","Thunderstorm","Ancient Inferno Island","Midnight Shadow Island","Mythical Souls Island","Winter Wonder Island"}
                 for i = 1, #oh2 do
-                    game:GetService("Players").LocalPlayer.ninjaEvent:FireServer(oh1, oh2[i])
+                    game:GetService("Players").LocalPlayer.ni
                 end
             end
             if not autobuyswords then break end
