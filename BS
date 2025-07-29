@@ -88,13 +88,13 @@ local NotificationHolder = loadstring(game:HttpGet("https://raw.githubuserconten
  ) 
  wait(2) 
  Notification:Notify( 
-     {Title = "Army River", Description = "准备好了！"}, 
+     {Title = "666居然是群成员", Description = "准备好了！"}, 
      {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "image"}, 
      {Image = "http://www.roblox.com/asset/?id=4483345998", ImageColor = Color3.fromRGB(255, 84, 84)} 
  )
  wait(0.2)
  Notification:Notify( 
-     {Title = "Army River", Description = "支持作者初心"}, 
+     {Title = "黑洞中心", Description = "支持作者唐尧"}, 
      {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 10, Type = "image"}, 
      {Image = "http://www.roblox.com/asset/?id=4483345998", ImageColor = Color3.fromRGB(255, 84, 84)} 
  )
