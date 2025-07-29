@@ -139,6 +139,13 @@ Section5:Toggle("夜视", "NightVision", false, function(Value)
         game.Lighting.Ambient = Color3.new(0, 0, 0)
     end
 end)
+Section5:Toggle("秒杀有血条的NPC", "NightVision", false, function(Value)
+    if Value then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/WSbuq/-/main/killNPC"))()
+    else
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/WSbuq/-/main/killNPC1"))()
+  end
+end)
 Section5:Button("穿墙(可关闭)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/TtmScripter/OtherScript/main/Noclip"))()
 end)
