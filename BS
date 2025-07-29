@@ -527,7 +527,9 @@ Section8:Button("快速互动", function()
         v["HoldDuration"] = 0
     end
 end
-
+Section8:Button("碰一遍方块", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/hellohellohell012321/obby-ruiner/main/obby-ruiner.lua",true))()
+end
 game:GetService("ProximityPromptService").PromptButtonHoldBegan:Connect(function(v)
     v["HoldDuration"] = 0
 end)
