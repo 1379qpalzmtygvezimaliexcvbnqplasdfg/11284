@@ -1,3 +1,14 @@
+local function SendChatMessage(message)
+    if TextChatService.ChatVersion == Enum.ChatVersion.TextChatService then
+        local textChannel = TextChatService.TextChannels.RBXGeneral
+        textChannel:SendAsync(message)
+    else
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message, "All")
+    end
+end
+
+SendChatMessage("我为黑洞中心代言❗️--(自动发言)")
+
 game:GetService("StarterGui"):SetCore("SendNotification",{ 
     Title = "看到这个就代表可以用", 
     Text = "请耐心等待加载", 
@@ -1857,14 +1868,3 @@ end)
 Section42:Button("自动杀鲨鱼", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Sw1ndlerScripts/RobloxScripts/main/Misc%20Scripts/sharkbite2.lua",true))()
 end)
-
-local function SendChatMessage(message)
-    if TextChatService.ChatVersion == Enum.ChatVersion.TextChatService then
-        local textChannel = TextChatService.TextChannels.RBXGeneral
-        textChannel:SendAsync(message)
-    else
-        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message, "All")
-    end
-end
-
-SendChatMessage("我为黑洞中心代言❗️--(自动发言)")
