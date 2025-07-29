@@ -527,9 +527,7 @@ Section8:Button("快速互动", function()
         v["HoldDuration"] = 0
     end
 end)
-Section8:Button("碰一遍方块", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/hellohellohell012321/obby-ruiner/main/obby-ruiner.lua",true))()
-end)
+
 local Tab7 = Window:Tab("黑洞", '5436396975')
 local blackhole = Tab7:section("黑洞脚本", true)
 blackhole:Button("黑洞控制道具", function()
