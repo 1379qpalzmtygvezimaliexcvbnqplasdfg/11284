@@ -2090,6 +2090,10 @@ Section42:Button("自动杀鲨鱼", function()
 end)
 
 else
-        game.Players.LocalPlayer:Kick("请从群聊查看卡密")
+        game:GetService("StarterGui"):SetCore("SendNotification",{ 
+    Title = "卡密错误❗️", 
+    Text = "请从群聊获取卡密", 
+    Duration = 4 
+})
     end
 end)
