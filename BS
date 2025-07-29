@@ -5,7 +5,7 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
 })
 
 -- 创建新UI库
-local Library = loadstring(game:HttpGet("https://pastebin.com/raw/z9SZKYvt"))()
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/Ai6rPYjx"))()
 local Window = Library:new("黑洞中心(BS)")
 local Tab1 = Window:Tab("公告", '5436396975')
 local Section1 = Tab1:section("BS脚本团队", true)
