@@ -552,8 +552,8 @@ Section8:Button("超人式飞行(手机端)", function()
 end)
 local Tab40 = Window:Tab("通用5", '5436396975')
 local general5 = Tab40:section("通用脚本", true)
-general5:Button("自动互动","NightVision", false, function(Value)
-    if Value then
+general5:Toggle("自动互动","AutoInteract",false,function(state)
+    if state then
         autoInteract = true
         while autoInteract do
             for _,descendant in pairs(workspace:GetDescendants()) do
