@@ -553,7 +553,7 @@ end)
 local Tab40 = Window:Tab("通用5", '5436396975')
 local general5 = Tab40:section("通用脚本", true)
 general5:Button("自动互动","NightVision", false, function(Value)
-    if state then
+    if Value then
         autoInteract = true
         while autoInteract do
             for _,descendant in pairs(workspace:GetDescendants()) do
