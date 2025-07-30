@@ -1,8 +1,22 @@
-game:GetService("StarterGui"):SetCore("SendNotification",{ 
-    Title = "看到这个就代表可以用", 
-    Text = "请耐心等待加载", 
-    Duration = 4 
+loadstring(game:HttpGet("https://pastebin.com/raw/zhuLLPXc"))()
+loadstring(game:HttpGet("https://pastebin.com/raw/9fFu43FF"))()
+
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "看到这个就代表可以用"; Text ="请耐心等待加载"; Duration = 4; })
+
+local CoreGui = game:GetService("StarterGui")
+
+CoreGui:SetCore("SendNotification", {
+    Title = "BS",
+    Text = "正在加载（反挂机已开启）",
+    Duration = 5, 
 })
+print("反挂机开启")
+		local vu = game:GetService("VirtualUser")
+		game:GetService("Players").LocalPlayer.Idled:connect(function()
+		   vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+		   wait(1)
+		   vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+		end)
 
 -- 创建新UI库
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/z9SZKYvt"))()
