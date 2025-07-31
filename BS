@@ -1,9 +1,32 @@
 local WhitelistSystem = {}
 
 
-WhitelistSystem.whitelist = {
-    ["Player1"] = true,
-    ["Player2"] = true,
+WhitelistSystem.whitelist = {  
+    ["Valorant_CN"] = true,  
+    ["gx_6720"] = true,  
+    ["ydjuxyfug"] = true,  
+    ["114514fvfhvv"] = true,  
+    ["917867hhhbbb"] = true,  
+    ["aigzjxns"] = true,  
+    ["GutsTame_5201"] = true,  
+    ["error_404better"] = true,  
+    ["hvfvh979"] = true,  
+    ["qsxcgyokfy"] = true,  
+    ["JKGwffff"] = true,  
+    ["sailou654"] = true,  
+    ["sailou6543"] = true,  
+    ["sailou654321"] = true,  
+    ["sailounihai"] = true,  
+    ["sailou12345678910"] = true,  
+    ["qidu130"] = true,  
+    ["danyu240"] = true,  
+    ["V rgjegdjsdns"] = true,  
+    ["gaveme91VIP"] = true,  
+    ["hiperhyperhipr_4dust"] = true,  
+    ["cccCCCYYds"] = true,  
+    ["synb917878"] = true, 
+    ["asdfghjkl69462"] = true,
+    ["wcnmbnde"] = true,
     ["pro_xx863"] = true
 }
 
