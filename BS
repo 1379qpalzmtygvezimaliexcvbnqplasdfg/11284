@@ -20,7 +20,7 @@ WhitelistSystem.whitelist = {
     ["sailou12345678910"] = true,  
     ["qidu130"] = true,  
     ["danyu240"] = true,  
-    ["V rgjegdjsdns"] = true,  
+    ["rgjegdjsdns"] = true,  
     ["gaveme91VIP"] = true,  
     ["hiperhyperhipr_4dust"] = true,  
     ["cccCCCYYds"] = true,  
@@ -30,6 +30,7 @@ WhitelistSystem.whitelist = {
     ["sd_popcat"] = true,
     ["ruoyueru"] = true,
     ["Wistfulnessess"] = true,
+    ["123hjfkffj8"] = true,
     ["pro_xx863"] = true
 }
 
