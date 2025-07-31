@@ -27,6 +27,8 @@ WhitelistSystem.whitelist = {
     ["synb917878"] = true, 
     ["asdfghjkl69462"] = true,
     ["wcnmbnde"] = true,
+    ["sd_popcat"] = true,
+    ["ruoyueru"] = true,
     ["pro_xx863"] = true
 }
 
