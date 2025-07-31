@@ -29,6 +29,7 @@ WhitelistSystem.whitelist = {
     ["wcnmbnde"] = true,
     ["sd_popcat"] = true,
     ["ruoyueru"] = true,
+    ["Wistfulnessess"] = true,
     ["pro_xx863"] = true
 }
 
