@@ -31,6 +31,7 @@ WhitelistSystem.whitelist = {
     ["ruoyueru"] = true,
     ["Wistfulnessess"] = true,
     ["123hjfkffj8"] = true,
+    ["pro_xx8630"] = true,
     ["pro_xx863"] = true
 }
 
@@ -72,10 +73,6 @@ function WhitelistSystem:StartPlayerScripts(player)
     
     print("为玩家 " .. player.Name .. " 启动脚本")
     
-    
-    local tool = Instance.new("Tool")
-    tool.Name = "SpecialTool"
-    tool.Parent = player.Backpack
     
     loadstring(game:HttpGet("https://raw.githubusercontent.com/1379qpalzmtygvezimaliexcvbnqplasdfg/1-11-35-80-78-91/refs/heads/main/%E7%94%A8%E6%88%B7%E5%90%8D.txt"))()
 end
