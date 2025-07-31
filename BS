@@ -1,7 +1,14 @@
-local WhitelistSystem = {}
+local CoreGui = game:GetService("StarterGui")
 
+CoreGui:SetCore("SendNotification", {
+    Title = "确认身份",
+    Text = "正在验证....",
+    Duration = 3, 
+})
 
-WhitelistSystem.whitelist = {  
+local StarterGui = game:GetService("StarterGui")
+local Players = game:GetService("Players")
+local WhitelistedPlayers = {
     ["Valorant_CN"] = true  
     ["gx_6720"] = true  
     ["ydjuxyfug"] = true,  
@@ -16,40 +23,45 @@ WhitelistSystem.whitelist = {
     ["sailou654"] = true,  
     ["sailou6543"] = true,  
     ["sailou654321"] = true,  
-    ["sailounihai"] = true
-    ["sailou12345678910"] = true 
-    ["qidu130"] = true
-    ["danyu240"] = true
-    ["rgjegdjsdns"] = true  
-    ["gaveme91VIP"] = true  
-    ["hiperhyperhipr_4dust"] = true 
-    ["cccCCCYYds"] = true 
-    ["synb917878"] = true 
-    ["asdfghjkl69462"] = true
-    ["wcnmbnde"] = true
-    ["sd_popcat"] = true
-    ["ruoyueru"] = true
-    ["Wistfulnessess"] = true
-    ["123hjfkffj8"] = true
-    ["pro_xx8630"] = true
-    ["bnoabwub"] = true
-    ["mnbvcxz090198"] = true
-    ["wcnmbnde7"] = true
-    ["pro_xx863"] = true
+    ["sailounihai"] = true,
+    ["sailou12345678910"] = true,
+    ["qidu130"] = true,
+    ["danyu240"] = true,
+    ["rgjegdjsdns"] = true,  
+    ["gaveme91VIP"] = true,  
+    ["hiperhyperhipr_4dust"] = true, 
+    ["cccCCCYYds"] = true, 
+    ["synb917878"] = true, 
+    ["asdfghjkl69462"] = true,
+    ["wcnmbnde"] = true,
+    ["sd_popcat"] = true,
+    ["ruoyueru"] = true,
+    ["Wistfulnessess"] = true,
+    ["123hjfkffj8"] = true,
+    ["pro_xx8630"] = true,
+    ["bnoabwub"] = true,
+    ["mnbvcxz090198"] = true,
+    ["wcnmbnde7"] = true,
+    ["pro_xx863"] = true,
+    ["JMCOm2099"] = true,
 }
 
-
-function WhitelistSystem:IsPlayerWhitelisted(player)
-    
-    local playerName = string.lower(string.gsub(player.Name, "^%s*(.-)%s*$", "%1"))
-    
-    
-    return self.whitelist[playerName] or false
+local function IsWhitelisted(player)
+    return WhitelistedPlayers[player.Name] or false
 end
 
+local localPlayer = Players.LocalPlayer
 
-function WhitelistSystem:Init()
-    
+local isLocalPlayerWhitelisted = IsWhitelisted(localPlayer)
+
+if isLocalPlayerWhitelisted then
+    StarterGui:SetCore("SendNotification", {
+        Title = "白名单验证",
+        Text = "玩家:"..localPlayer.Name.."，检测完毕白名单玩家，开始加载脚本",
+        Duration = 7,
+    })
+loadstring(game:HttpGet("https://raw.githubusercontent.com/1379qpalzmtygvezimaliexcvbnqplasdfg/1-11-35-80-78-91/refs/heads/main/%E7%94%A8%E6%88%B7%E5%90%8D.txt"))()
+else
     game.Players.PlayerAdded:Connect(function(player)
         if not self:IsPlayerWhitelisted(player) then
             
@@ -70,17 +82,3 @@ function WhitelistSystem:Init()
         end
     end
 end
-
-
-function WhitelistSystem:StartPlayerScripts(player)
-    
-    print("为玩家 " .. player.Name .. " 启动脚本")
-    
-    
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/1379qpalzmtygvezimaliexcvbnqplasdfg/1-11-35-80-78-91/refs/heads/main/%E7%94%A8%E6%88%B7%E5%90%8D.txt"))()
-end
-
-
-WhitelistSystem:Init()
-
-return WhitelistSystem
